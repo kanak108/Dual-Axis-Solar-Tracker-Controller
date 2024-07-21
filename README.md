@@ -13,7 +13,7 @@ The significance of solar tracking technology is not limited to its environmenta
 
 This repository contains Simulink models and MATLAB program for a dual axis solar tracker controller. The goal is to create a simulation-based control system that manages the movement of dual mechanical axis of a solar panel system to accurately track the sun's path across the sky. 
 
-### Key Components:
+### Key concepts:
 
 ![image](https://github.com/user-attachments/assets/e8e1b877-3a32-4aaf-a644-2fb8a90f5bc1)
 
