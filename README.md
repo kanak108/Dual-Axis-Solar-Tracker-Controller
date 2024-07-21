@@ -7,39 +7,21 @@ As the world increasingly turns to renewable energy sources to combat climate ch
 
 The significance of solar tracking technology is not limited to its environmental advantages. The renewable energy sector is experiencing a surge in demand for sophisticated tracking systems designed to optimize energy production and minimize expenses. Cutting-edge developments in solar tracking are swiftly being embraced by both large-scale solar farms and home-based solar setups, indicating a strong and expanding market eager for enhancements and deployment of such innovations.
 
+![Solar tracker image](https://github.com/user-attachments/assets/ce1458de-abd4-4c42-b85b-022aef22973c)
+
 ## Project Description
 
-This repository contains Simulink models and algorithms for designing and implementing a solar tracker controller. The goal is to create a simulation-based control system that manages the movement of at least one mechanical axis of a solar panel system to accurately track the sun's path across the sky. The project is based on the "Using the Worm and Gear Constraint Block - Solar Tracker" example from Simscape™ Multibody™.
+This repository contains Simulink models and MATLAB program for a dual axis solar tracker controller. The goal is to create a simulation-based control system that manages the movement of dual mechanical axis of a solar panel system to accurately track the sun's path across the sky. 
 
 ### Key Components:
 
+![image](https://github.com/user-attachments/assets/e8e1b877-3a32-4aaf-a644-2fb8a90f5bc1)
+
 - **Azimuth Axis:** Allows horizontal rotation to align solar panels with the sun's east-west motion due to the Earth's rotation.
 - **Elevation (Altitude) Axis:** Enables vertical movement to adjust panel tilt for varying sun elevation throughout the day and seasons.
-- **Polar (or Roll) Axis:** Optional for additional adjustments, accommodating Earth's axial tilt or optimizing panel orientation based on location.
 
-### Suggested Steps:
 
-1. **Simulation and Modeling:**
-   - Familiarize yourself with Simulink and Simscape Multibody using the provided solar tracker example.
-   - Implement motor models using Simscape Electrical suitable for solar tracker applications.
-
-2. **Control System Design:**
-   - Design a control system for at least one axis using Simulink and Control System Toolbox.
-   - Start with PID control and explore advanced strategies for better performance.
-
-3. **Algorithm Development:**
-   - Develop algorithms to calculate optimal axis positions based on solar position algorithms.
-   - Ensure accurate tracking of the sun's path to maximize energy absorption.
-
-4. **Validation and Analysis:**
-   - Validate the entire system through simulation.
-   - Analyze the efficiency of the solar panel system with and without the solar tracker using MATLAB tools.
-
-5. **Advanced Work:**
-   - Expand the model to include additional axes for more precise tracking.
-   - Integrate machine learning for predictive sun trajectory and optimization.
-   - Explore energy storage options and their integration with the solar tracker system.
-
+   
 ## Installation
 
 To get started with the Solar Tracker Controller Project, follow these steps:
@@ -50,16 +32,20 @@ To get started with the Solar Tracker Controller Project, follow these steps:
    git clone https://github.com/your-username/solar-tracker.git
    ```
 
-2. Ensure you have MATLAB and Simulink installed (version X.X or higher).
+2. Ensure you have latest version of MATLAB and Simulink installed (version 24.1)
 
 3. Install required toolboxes:
    - Simscape
    - Control System Toolbox
+   - Simscape
    - Simscape Electrical
+   - Simscape Multibody
+   - Simlink
+   - Simulink Control Design
 
 4. Open the project in MATLAB/Simulink and follow instructions in README for usage.
 
-## Usage
+## Usage and steps to run the simulation
 
 1. Open `Solar_Tracker_Model.slx` in Simulink.
 
