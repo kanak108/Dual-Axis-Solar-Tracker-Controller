@@ -61,6 +61,16 @@ To get started with the Solar Tracker Controller Project, follow these steps:
 
 7. Run the model `Comparison_and_analysis.slx`. A comparison is done between the proposed Dual-Axis solar tracker model and Fixed solar pv panel.
    
+## Simulation Results
+Variation of Azimuth angles and elevation angles
+![Graph of angles jpeg](https://github.com/user-attachments/assets/50d65cd9-83f2-49a9-8ac4-f46f1cf244c8)
+
+Clip depicting solar tracker tracking the Sun at daytime from midnight
+![Solar tracker at day time](https://github.com/user-attachments/assets/5d96335e-3778-41d2-8dbf-f6ad33ca86b4)
+
+Clip depicting solar tracker saving its energy and slowly comes to its intial place during nighttime
+![Solar tracker at night time](https://github.com/user-attachments/assets/75a0f1f1-27fd-4eea-b91c-a6aef1590b41)
+
 
 ## License
 
