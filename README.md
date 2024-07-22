@@ -16,10 +16,15 @@ This repository contains Simulink models and MATLAB programs for a dual-axis sol
 
 ### Key Concepts:
 
-![image](https://github.com/user-attachments/assets/e8e1b877-3a32-4aaf-a644-2fb8a90f5bc1)
-
-- **Azimuth Axis:** Allows horizontal rotation to align solar panels with the sun's east-west motion due to the Earth's rotation.
-- **Elevation (Altitude) Axis:** Enables vertical movement to adjust panel tilt for varying sun elevation throughout the day and seasons.
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    - **Azimuth Axis:** Allows horizontal rotation to align solar panels with the sun's east-west motion due to the Earth's rotation.
+    - **Elevation (Altitude) Axis:** Enables vertical movement to adjust panel tilt for varying sun elevation throughout the day and seasons.
+  </div>
+  <div>
+    <img src="https://github.com/user-attachments/assets/e8e1b877-3a32-4aaf-a644-2fb8a90f5bc1" alt="Key Concepts" style="margin-left: 20px; width: 300px;">
+  </div>
+</div>
 
 ## Installation
 
@@ -55,19 +60,28 @@ To get started with the Solar Tracker Controller Project, follow these steps:
 
 ## Simulation Results
 
-The following simulation results are based on the geographical location of Roorkee, India, with coordinates at a latitude of 29° N and a longitude of 77° E, on May 23, 2024.
+The following simulation results are based on the geographical location of Roorkee, India, with coordinates at a latitude of 29.8543° N and a longitude of 77.8880° E, on March 23, 2024.
 
 ### Variation of Azimuth and Elevation Angles
-![Graph of angles](https://github.com/user-attachments/assets/50d65cd9-83f2-49a9-8ac4-f46f1cf244c8)
+The graph below illustrates the variation of azimuth and elevation angles throughout the day for the specified location and date.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/50d65cd9-83f2-49a9-8ac4-f46f1cf244c8" alt="Graph of angles" width="500">
+</div>
 
 ### Solar Tracker Operation
-- **Daytime Tracking:** Clip depicting the solar tracker following the sun during the day.
-  
-![Solar tracker during daytime](https://github.com/user-attachments/assets/5d96335e-3778-41d2-8dbf-f6ad33ca86b4)
+- **Daytime Tracking:** The GIF below depicts the solar tracker following the sun during the day in Roorkee, India, on March 23, 2024. The simulation starts at midnight and shows how the tracker adjusts the panel angles to maximize sunlight exposure.
 
-- **Nighttime Energy Saving:** Clip depicting the solar tracker conserving energy and returning to its initial position at night.
-  
-![Solar tracker at nighttime](https://github.com/user-attachments/assets/75a0f1f1-27fd-4eea-b91c-a6aef1590b41)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5d96335e-3778-41d2-8dbf-f6ad33ca86b4" alt="Solar tracker during daytime" width="500">
+</div>
+
+- **Nighttime Energy Saving:** The following GIF shows the solar tracker conserving energy by slowly returning to its initial position during nighttime for the same location and date.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/75a0f1f1-27fd-4eea-b91c-a6aef1590b41" alt="Solar tracker at nighttime" width="500">
+</div>
+
 
 ## License
 
