@@ -18,13 +18,13 @@ This repository contains Simulink models and MATLAB programs for a dual-axis sol
 
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    1. **Azimuth Axis:** Allows horizontal rotation to align solar panels with the sun's east-west motion due to the Earth's rotation.
+    1. Azimuth Axis: Allows horizontal rotation to align solar panels with the sun's east-west motion due to the Earth's rotation.
   </div>
   <div>
     <img src="https://github.com/user-attachments/assets/e8e1b877-3a32-4aaf-a644-2fb8a90f5bc1" alt="Key Concepts" style="margin-left: 20px; width: 300px;">
   </div>
 </div>
- 2. **Elevation (Altitude) Axis:** Enables vertical movement to adjust panel tilt for varying sun elevation throughout the day and seasons.
+ 2. Elevation (Altitude) Axis: Enables vertical movement to adjust panel tilt for varying sun elevation throughout the day and seasons.
 
 ## Installation
 
