@@ -60,9 +60,11 @@ To get started with the Solar Tracker Controller Project, follow these steps:
 
 ### Solar Tracker Operation
 - **Daytime Tracking:** Clip depicting the solar tracker following the sun during the day.
+  
 ![Solar tracker during daytime](https://github.com/user-attachments/assets/5d96335e-3778-41d2-8dbf-f6ad33ca86b4)
 
 - **Nighttime Energy Saving:** Clip depicting the solar tracker conserving energy and returning to its initial position at night.
+  
 ![Solar tracker at nighttime](https://github.com/user-attachments/assets/75a0f1f1-27fd-4eea-b91c-a6aef1590b41)
 
 ## License
