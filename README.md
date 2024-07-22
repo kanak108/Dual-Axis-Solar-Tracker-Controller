@@ -82,7 +82,11 @@ The graph below illustrates the variation of azimuth and elevation angles throug
   <img src="https://github.com/user-attachments/assets/75a0f1f1-27fd-4eea-b91c-a6aef1590b41" alt="Solar tracker at nighttime" width="500">
 </div>
 
-
+### References
+- National Renewable Energy Laboratory (NREL) – Solar Position Algorithm (SPA)
+- NOAA Solar Position Calculator
+- S. K. Jha, S. Roy, V. K. Singh and D. P. Mishra, "Sun's Position Tracking by Solar Angles Using MATLAB," 2020 International Conference on Renewable Energy Integration into Smart Grids
+  
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
