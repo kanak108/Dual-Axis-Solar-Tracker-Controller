@@ -55,6 +55,8 @@ To get started with the Solar Tracker Controller Project, follow these steps:
 
 ## Simulation Results
 
+The following simulation results are based on the geographical location of Roorkee, India, with coordinates at a latitude of 29° N and a longitude of 77° E, on May 23, 2024.
+
 ### Variation of Azimuth and Elevation Angles
 ![Graph of angles](https://github.com/user-attachments/assets/50d65cd9-83f2-49a9-8ac4-f46f1cf244c8)
 
