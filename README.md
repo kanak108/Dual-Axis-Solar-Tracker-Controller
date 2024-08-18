@@ -47,12 +47,13 @@ To get started with the Solar Tracker Controller Project, follow these steps:
    - Simulink Control Design
 
 4. Open the project in MATLAB/Simulink and follow the instructions in this README for usage.
+5. Note that the model relies on the parameters defined in the `WormAndGearConstraintParameters` file. Before running the model, ensure that you load these parameters.
 
 ## Usage and Steps to Run the Simulation
 
 1. Open `Solar_position_model.slx` in Simulink.
 2. Configure simulation parameters such as geographical location, time of day, etc.
-3. Run `Run_1.m` in MATLAB, to get the variation of azimuth as well as elevation angles of the Sun.
+3. Run `Run_1.m` in MATLAB, to get the variation of azimuth as well as elevation angles of the Sun. It would also generate the necessary .mat files for the next Simulink model.
 4. Open `Solar_Tracker_Model_Dual_axis.slx` in Simulink, and run the simulation. Observe that the solar panels track the sun starting from midnight. Note that the simulation time is set to 30 seconds, with each second representing one hour in real-time.
 5. Run the model `Comparison_and_analysis.slx` to compare the proposed dual-axis solar tracker model with a fixed solar PV panel.
 
