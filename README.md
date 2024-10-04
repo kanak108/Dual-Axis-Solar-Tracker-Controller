@@ -65,7 +65,8 @@ The following simulation results are based on the geographical location of Roork
 The graph below illustrates the variation of azimuth and elevation angles throughout the day for the specified location and date.
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/50d65cd9-83f2-49a9-8ac4-f46f1cf244c8" alt="Graph of angles" width="500">
+  <img src="https://github.com/user-attachments/assets/ff356713-0cfb-4966-be28-5e955d86a421" alt="Graph of angles" width="500">
+
 </div>
 
 ### Solar Tracker Operation
