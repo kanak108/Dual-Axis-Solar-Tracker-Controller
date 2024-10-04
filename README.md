@@ -51,15 +51,14 @@ To get started with the Solar Tracker Controller Project, follow these steps:
 
 ## Usage and Steps to Run the Simulation
 
-1. Open `Solar_position_model.slx` in Simulink.
+1. Open `Solar_calculations.mlx` in Simulink.
 2. Configure simulation parameters such as geographical location, time of day, etc.
-3. Run `Run_1.m` in MATLAB, to get the variation of azimuth as well as elevation angles of the Sun. It would also generate the necessary .mat files for the next Simulink model.
-4. Open `Solar_Tracker_Model_Dual_axis.slx` in Simulink, and run the simulation. Observe that the solar panels track the sun starting from midnight. Note that the simulation time is set to 30 seconds, with each second representing one hour in real-time.
-5. Run the model `Comparison_and_analysis.slx` to compare the proposed dual-axis solar tracker model with a fixed solar PV panel.
+3. Open `Solar_Tracker_Model_Dual_axis.slx` in Simulink, and run the simulation. Observe that the solar panels track the sun starting from midnight. Note that the simulation time is set to 24 seconds, with each second representing one hour in real-time.
+4. Run the model `Comparison_and_analysis.slx` to compare the proposed dual-axis solar tracker model with a fixed solar PV panel.
 
 ## Simulation Results
 
-The following simulation results are based on the geographical location of Roorkee, India, with coordinates at a latitude of 29.8543° N and a longitude of 77.8880° E, on March 23, 2024.
+The following simulation results are based on the geographical location of Roorkee, India, with coordinates at a latitude of 29.8543° N and a longitude of 77.8880° E, on May 25, 2024.
 
 ### Variation of Azimuth and Elevation Angles
 The graph below illustrates the variation of azimuth and elevation angles throughout the day for the specified location and date.
